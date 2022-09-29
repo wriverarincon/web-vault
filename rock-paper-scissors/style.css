@@ -1,0 +1,55 @@
+* {
+    margin: 5px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+button.start {
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#instructionMsg span {
+    color: green;
+}
+
+.para-container p {
+    text-align: center;
+}
+
+#options button {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+#options button:hover {
+    background-color: grey;
+}
+
+#options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
